@@ -20,7 +20,7 @@ spec:
       containers:
       -
         name: phpinfo
-        image: academiaonline/phpinfo:latest
+        image: academiaonline/phpinfo:v2.0
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
